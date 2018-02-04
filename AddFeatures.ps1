@@ -66,8 +66,8 @@ Configuration Main
 			Package "Microsoft Office 365 ProPlus Installer"
 			{
 				Name = "Microsoft Office 365 ProPlus Installer"
-				Path = "\\dc005.bjorkander.local\Build$\OfficeProPlus.msi"
-				Ensure    = "Present"
+				Path = "\\xxxx.xxxx.xxxx\Build$\OfficeProPlus.msi"
+				EnsureÂ Â Â  = "Present"
 				ProductID = '{5249E795-8BA2-4097-99E3-C722DBA96338}'
 				ReturnCode = 0
 				DependsOn = '[WindowsFeature]Print-Server'
